@@ -1,0 +1,38 @@
+#featured {
+	height: 500px;
+}
+
+#featured img {
+	background: contain, cover, no-repeat;
+}
+
+.fc-four-rows .fc-row  {
+    height: 25%;
+}
+ 
+.fc-five-rows .fc-row  {
+    height: 20%;
+}
+ 
+.fc-six-rows .fc-row {
+    height: 16.66%;
+    height: -moz-calc(100%/6);
+    height: -webkit-calc(100%/6);
+    height: calc(100%/6);
+}
+ 
+.fc-calendar .fc-row > div,
+.fc-calendar .fc-head > div {
+    float: left;
+    height: 100%;
+    width:  14.28%; /* 100% / 7 */
+    width: -moz-calc(100%/7);
+    width: -webkit-calc(100%/7);
+    width: calc(100%/7);
+    position: relative;
+}
+
+footer p {
+	font-size: 10px;
+	text-align: center;
+}
